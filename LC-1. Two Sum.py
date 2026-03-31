@@ -27,4 +27,3 @@ class Solution:
             if target - nums[i] in mydict.keys():
                 return [mydict[target-nums[i]],i] 
             mydict[nums[i]] = i
-        
