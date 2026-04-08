@@ -12,7 +12,7 @@
 # void step(int num) Instructs the robot to move forward num steps.
 # int[] getPos() Returns the current cell the robot is at, as an array of length 2, [x, y].
 # String getDir() Returns the current direction of the robot, "North", "East", "South", or "West".
-
+from typing import List
 class Robot:
 
     def __init__(self, width: int, height: int):
