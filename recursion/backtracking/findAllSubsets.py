@@ -17,6 +17,7 @@ def find_all_subsets_backtracking(s):
 
         # exclude the current character
         backtrack(index+1,subset)
+        
     backtrack(0,[])
     return res
 
