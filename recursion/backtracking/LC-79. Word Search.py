@@ -39,7 +39,7 @@ class Solution:
             # moving in all 4 directions (i+1,j),(i-1,j),(i,j-1),(i,j+1)
             if backtrack(k+1,i+1,j) or backtrack(k+1,i-1,j) or backtrack(k+1,i,j-1) or backtrack(k+1,i,j+1):
                 return True
-            
+            # state back to original for backtracking
             board[i][j] = temp
             return False
             
